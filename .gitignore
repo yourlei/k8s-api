@@ -1,0 +1,16 @@
+# OSX leaves these everywhere on SMB shares
+._*
+
+.viscode/
+
+# Eclipse files
+.classpath
+.project
+.settings/**
+
+# Emacs save files
+*~
+# log/tar/zip
+*.log
+*.tar
+*.zip
