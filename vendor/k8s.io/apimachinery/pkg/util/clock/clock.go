@@ -23,6 +23,7 @@ import (
 
 // Clock allows for injecting fake or real clocks into code that
 // needs to do arbitrary things based on time.
+// description: Clock 包实现对时间的处理,应用于需要根据时间执行的代码
 type Clock interface {
 	Now() time.Time
 	Since(time.Time) time.Duration
